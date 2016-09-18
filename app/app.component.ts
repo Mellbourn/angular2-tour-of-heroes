@@ -76,7 +76,8 @@ const HEROES: Hero[] = [
       </li>
     </ul>
     <my-hero-detail [hero]="selectedHero"></my-hero-detail>
-    `
+    `,
+    directives: [HeroDetailComponent]
 })
 export class AppComponent {
   title = 'Tour of Heroes';
